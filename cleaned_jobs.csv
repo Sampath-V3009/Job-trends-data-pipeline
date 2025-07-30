@@ -1,0 +1,11 @@
+Job Title,Company,Location,Salary,Job Type,Skills,Experience,Posted Date,Remote,Salary Cleaned (LPA),Experience (Years)
+Data Engineer,Infosys,Bangalore,₹6-9 LPA,Full-time,"Python, SQL, Airflow",2-4 yrs,2025-07-10,No,7.5,3.0
+Data Analyst,TCS,Mumbai,₹4-6 LPA,Full-time,"Excel, Power BI, SQL",1-3 yrs,2025-07-08,Yes,5.0,2.0
+Backend Developer,Accenture,Remote,₹10-14 LPA,Contract,"Java, Spring Boot, Docker",4-6 yrs,2025-07-05,Yes,12.0,5.0
+ML Engineer,Tech Mahindra,Hyderabad,₹12-16 LPA,Full-time,"Python, TensorFlow, Pandas",3-5 yrs,2025-07-01,No,14.0,4.0
+Junior Python Dev,Wipro,Chennai,₹3-5 LPA,Internship,"Python, Flask, Git",0-1 yr,2025-07-12,No,4.0,0.5
+Cloud Engineer,HCL,Pune,₹8-10 LPA,Full-time,"AWS, Docker, Kubernetes",2-3 yrs,2025-07-06,Yes,9.0,2.5
+Software Tester,Cognizant,Delhi,₹5-7 LPA,Full-time,"Selenium, Python, JIRA",1-2 yrs,2025-07-09,No,6.0,1.5
+Frontend Developer,Zoho,Coimbatore,₹6-9 LPA,Full-time,"HTML, CSS, React",2-3 yrs,2025-07-04,No,7.5,2.5
+DevOps Engineer,Capgemini,Remote,₹10-13 LPA,Full-time,"GitHub, Jenkins, AWS",3-5 yrs,2025-07-03,Yes,11.5,4.0
+ETL Developer,IBM,Kolkata,₹7-10 LPA,Full-time,"Informatica, SQL, Shell",2-4 yrs,2025-07-11,No,8.5,3.0
