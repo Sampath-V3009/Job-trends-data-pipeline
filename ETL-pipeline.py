@@ -1,40 +1,19 @@
 import pandas as pd
+import re
 
-df = pd.read_csv('job-listing.csv')
-print(df.head())
+# Load dataset
+df = pd.read_csv("ds_salaries.csv")
 
-# --- Clean Salary column ---
-# Remove ₹ and 'LPA', then split range and take average
-def clean_salary(s):
-    if pd.isnull(s):
-        return None
-    s = s.replace('₹', '').replace('LPA', '').strip()
-    if '-' in s:
-        low, high = s.split('-')
-        return (float(low) + float(high)) / 2
-    return float(s)
-
-df['Salary Cleaned (LPA)'] = df['Salary'].apply(clean_salary)
-
-# --- Clean Experience column ---
-# Extract average years from strings like "2-4 yrs"
+# Clean 'experience_level' field
 def clean_experience(exp):
-    if pd.isnull(exp):
-        return None
-    exp = exp.lower().replace('yrs', '').replace('yr', '').strip()
-    if '-' in exp:
-        low, high = exp.split('-')
-        return (float(low) + float(high)) / 2
-    return float(exp)
+    mapping = {'EN': 'Entry-Level', 'MI': 'Mid-Level', 'SE': 'Senior', 'EX': 'Executive'}
+    return mapping.get(exp, exp)
 
-df['Experience (Years)'] = df['Experience'].apply(clean_experience)
+df['experience_level'] = df['experience_level'].apply(clean_experience)
 
-# --- Convert Posted Date to datetime ---
-df['Posted Date'] = pd.to_datetime(df['Posted Date'])
+# Clean 'salary' column from USD to INR (for demo, multiply by 83)
+df['salary_in_inr'] = df['salary_in_usd'] * 83
 
-# --- Print cleaned data ---
-print(df[['Job Title', 'Salary', 'Salary Cleaned (LPA)', 'Experience', 'Experience (Years)', 'Posted Date']].head())
-
-# Save the cleaned DataFrame to CSV
-df.to_csv('cleaned_jobs.csv', index=False)
+# Save cleaned data
+df.to_csv("cleaned_jobs.csv", index=False)
 print("✅ Cleaned data saved to 'cleaned_jobs.csv'")
