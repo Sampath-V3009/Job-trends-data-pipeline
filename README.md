@@ -118,10 +118,11 @@ Implement unit tests and CI/CD integration
 
 Sampath V
 Aspiring Data Engineer
-🌐 LinkedIn Profile
-## 🔗 Connect with Me
-[![LinkedIn](www.linkedin.com/in/sampath3009
-)
+## Connect with me
+
+[Visit my LinkedIn profile](https://www.linkedin.com/in/sampath3009/)
+
+
 
 
 
