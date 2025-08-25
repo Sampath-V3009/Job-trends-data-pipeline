@@ -118,7 +118,7 @@ Sampath V
 Aspiring Data Engineer
 ## Connect with me
 
-[![Email](https://img.shields.io/badge/Email-vsampath3009@gmail.com-red?logo=gmail&style=flat-square)](mailto:vsampath3009@gmail.com)
+[![Email](https://img.shields.io/badge/Email-vsampath3009@gmail.com-green?logo=gmail&style=flat-square)](mailto:vsampath3009@gmail.com)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/sampath3009/)  
 
