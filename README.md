@@ -111,9 +111,7 @@ Automate the pipeline using Apache Airflow
 Implement unit tests and CI/CD integration
 
 
-
----
-
+```
 👤 Author
 
 Sampath V
@@ -132,4 +130,3 @@ This project is licensed for personal and educational use. For commercial usage,
 ---
 
 Let me know if you want this saved directly to a file (`README.md`) for you!
-```
