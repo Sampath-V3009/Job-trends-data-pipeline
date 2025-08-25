@@ -118,10 +118,10 @@ Sampath V
 Aspiring Data Engineer
 ## Connect with me
 
-[Visit my LinkedIn profile](https://www.linkedin.com/in/sampath3009/)
-[LinkedIn](https://www.linkedin.com/in/sampath3009/)
+[![Email](https://img.shields.io/badge/Email-your.email@example.com-red?logo=gmail&style=flat-square)](mailto:vsampath3009@gmail.com)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/sampath3009/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/sampath3009/)  
+
 
 
 ---
