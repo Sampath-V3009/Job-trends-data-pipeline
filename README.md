@@ -122,6 +122,9 @@ Aspiring Data Engineer
 
 [Visit my LinkedIn profile](https://www.linkedin.com/in/sampath3009/)
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/sampath3009/)
+
+
 
 
 
